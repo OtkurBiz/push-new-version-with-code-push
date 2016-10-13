@@ -1,0 +1,29 @@
+{
+  "name": "push-new-version-with-codepush",
+  "version": "1.0.0",
+  "description": "Push new version of app which is written in react-native with code push. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node --harmony index.js start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.otkur.biz:OtkurBiz/push-new-version-with-code-push.git"
+  },
+  "keywords": [
+    "code-push",
+    "react-native"
+  ],
+  "author": "Alim Boyaq",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "colors-cli": "^1.0.7",
+    "commander": "^2.9.0",
+    "inquirer": "^1.2.2",
+    "loading-cli": "^1.0.2"
+  }
+}
